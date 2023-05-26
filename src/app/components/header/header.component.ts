@@ -9,8 +9,10 @@ export class HeaderComponent implements OnInit {
   title: string = 'Hello-World';
  constructor() { }
 
- ngOnInit(): void {
-   
- }
+ ngOnInit(): void {}
+
+ toggleAddTask() {
+  console.log('toggle')
+}
 
 }
